@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect , useRef} from "react";
 import { ProductsContext } from "../../context/ProductsContext";
-import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
 import {Link} from 'react-router-dom';
 export default function Hero() {
   const { products} = useContext(ProductsContext);

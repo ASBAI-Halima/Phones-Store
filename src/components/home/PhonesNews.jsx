@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
 export default function PhonesNews() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },

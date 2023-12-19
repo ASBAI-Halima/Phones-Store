@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import { ProductsContext } from "../../context/ProductsContext";
-import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
 export default function Reviews() {
     const { reviews} = useContext(ProductsContext);
     const breakPoints = [
