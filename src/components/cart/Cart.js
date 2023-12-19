@@ -35,7 +35,7 @@ export default function Cart() {
                                             <tr key={index}>
 
                                                 <td className="product__thumbnail">
-                                                    <a href="">
+                                                    <a href="#">
                                                         <img
                                                             className='bannner_01'
                                                             src={`../../${product.image}`}
@@ -107,7 +107,7 @@ export default function Cart() {
                                         <span className="new__price">${isChecked? subTotal+7 : subTotal}</span>
                                     </li>
                                 </ul>
-                                <a href="">PROCEED TO CHECKOUT</a>
+                                <a href="#">PROCEED TO CHECKOUT</a>
                             </div>
                         </form>
                     </div>
