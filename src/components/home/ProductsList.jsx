@@ -107,14 +107,14 @@ export default function ProductsList() {
                         </Link>
                       </li>
                       <li>
-                        <a data-tip="Add To Wishlist" data-place="left" href="#">
+                        <a data-tip="Add To Wishlist" data-place="left" href="/">
                           <svg>
                             <use href="./images/sprite.svg#icon-heart-o"></use>
                           </svg>
                         </a>
                       </li>
                       <li>
-                        <a data-tip="Add To Compare" data-place="left" href="#">
+                        <a data-tip="Add To Compare" data-place="left" href="/">
                           <svg>
                             <use href="./images/sprite.svg#icon-loop2"></use>
                           </svg>

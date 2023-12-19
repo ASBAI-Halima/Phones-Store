@@ -39,7 +39,7 @@ import ScrollToTop from "./../ScrollToTop"
                 <div className="nav__menu">
                   <div className="menu__top">
                     <span className="nav__category">PHONE</span>
-                    <a href="#" className="close__toggle">
+                    <a href="/" className="close__toggle">
                       <svg>
                         {/* <use xlink:href="./images/sprite.svg#icon-cross"></use> */}
                       </svg>
@@ -57,7 +57,7 @@ import ScrollToTop from "./../ScrollToTop"
                      
                     </li>
                     <li className="nav__item">
-                      <a href="#news" className="nav__link scroll-link">
+                      <a href="/" className="nav__link scroll-link">
                         Blog
                       </a>
                     </li>
@@ -70,19 +70,19 @@ import ScrollToTop from "./../ScrollToTop"
                 </div>
 
                 <div className="nav__icons" >
-                  <a href="#" className="icon__item" id="login-btn" onClick={() => { setActive(active==="auth"?'':'auth'); }}>
+                  <a href="/" className="icon__item" id="login-btn" onClick={() => { setActive(active==="auth"?'':'auth'); }}>
                     <svg className="icon__user">
                       <use href="./images/sprite.svg#icon-user"></use>
                     </svg>
                   </a>
 
-                  <a href="#" className="icon__item" id="search-btn" onClick={() =>  setActive(active==="search"?'':'search')}>
+                  <a href="/" className="icon__item" id="search-btn" onClick={() =>  setActive(active==="search"?'':'search')}>
                     <svg className="icon__search">
                       <use href="./images/sprite.svg#icon-search"></use>
                     </svg>
                   </a>
 
-                  <a href="#" className="icon__item" id="cart-btn" onClick={()=>setActive(active==="cart"?'':'cart')}>
+                  <a href="/" className="icon__item" id="cart-btn" onClick={()=>setActive(active==="cart"?'':'cart')}>
                     <svg className="icon__cart">
                       <use href="./images/sprite.svg#icon-shopping-basket"></use>
                     </svg>
@@ -105,10 +105,10 @@ import ScrollToTop from "./../ScrollToTop"
                 className="box"
               />
               <p>
-                forget your password <a href="#">Click Here</a>
+                forget your password <a href="/">Click Here</a>
               </p>
               <p>
-                don't have an account <a href="#">Create now</a>
+                don't have an account <a href="/">Create now</a>
               </p>
               <input type="submit" value="Login now" className="btn" />
             </form>

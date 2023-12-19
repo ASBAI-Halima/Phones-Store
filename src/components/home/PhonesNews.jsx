@@ -53,7 +53,7 @@ export default function PhonesNews() {
                             elit. Illo praesentium, numquam non provident rem
                             sed minus natus unde vel modi!
                           </p>
-                          <a href="#">
+                          <a href="/">
                             <button>Read More</button>
                           </a>
                         </div>
@@ -72,7 +72,7 @@ export default function PhonesNews() {
                             elit. Illo praesentium, numquam non provident rem
                             sed minus natus unde vel modi!
                           </p>
-                          <a href="#">
+                          <a href="/">
                             <button>Read More</button>
                           </a>
                         </div>
@@ -91,7 +91,7 @@ export default function PhonesNews() {
                             elit. Illo praesentium, numquam non provident rem
                             sed minus natus unde vel modi!
                           </p>
-                          <a href="#">
+                          <a href="/">
                             <button>Read More</button>
                           </a>
                         </div>
@@ -110,7 +110,7 @@ export default function PhonesNews() {
                             elit. Illo praesentium, numquam non provident rem
                             sed minus natus unde vel modi!
                           </p>
-                          <a href="#">
+                          <a href="/">
                             <button>Read More</button>
                           </a>
                         </div>
@@ -129,7 +129,7 @@ export default function PhonesNews() {
                             elit. Illo praesentium, numquam non provident rem
                             sed minus natus unde vel modi!
                           </p>
-                          <a href="#">
+                          <a href="/">
                             <button>Read More</button>
                           </a>
                         </div>

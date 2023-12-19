@@ -15,7 +15,7 @@ export default function Collection() {
                     <div className="collection__data">
                         <span>New Colors Introduced</span>
                         <h1>HEADPHONES</h1>
-                        <a href="#shop">SHOP NOW</a>
+                        <a href="/">SHOP NOW</a>
                     </div>
                 </div>
            </div>
@@ -27,7 +27,7 @@ export default function Collection() {
               <div className="collection__data">
                 <span>Phone Device Presets</span>
                 <h1>SMARTPHONES</h1>
-                <a href="#">SHOP NOW</a>
+                <a href="/">SHOP NOW</a>
               </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ import Footer from '../home/Footer';
 import { Link, useParams} from 'react-router-dom';
 import {ProductsContext} from '../../context/ProductsContext';
 export default function Details() {
-  const { products,getProductById, addToCart} = useContext(ProductsContext); 
+  const { getProductById, addToCart} = useContext(ProductsContext); 
   const { id } = useParams();
   const [prodDetails, setProdDetails] = useState(null);
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function Details() {
                   </Link>
                   </button>
                 <button>
-              <Link to={`/cart/${prodDetails.id}`} className="buy" href="#">
+              <Link to={`/cart/${prodDetails.id}`} className="buy" href="/">
                 <span  onClick={() => addToCart(prodDetails.id)}>
                   <svg>
                     <use href="./../../../public/images/sprite.svg#icon-credit-card"></use>
@@ -87,7 +87,7 @@ export default function Details() {
                     <use href={process.env.PUBLIC_URL + '/images/sprite.svg#icon-star-empty'}></use>
                   </svg>
                 </div>
-                <a href="#" className="rating__quatity">
+                <a href="/" className="rating__quatity">
                   3 reviews
                 </a>
               </div>
@@ -118,27 +118,27 @@ export default function Details() {
 
                   <li>
                     <span>Subtotal:</span>
-                    <a href="#" className="new__price">
+                    <a href="/" className="new__price">
                       ${prodDetails.price}
                     </a>
                   </li>
                   <li>
                     <span>Brand:</span>
-                    <a href="#">Apple</a>
+                    <a href="/">Apple</a>
                   </li>
                   <li>
                     <span>Product Type:</span>
-                    <a href="#">Phone</a>
+                    <a href="/">Phone</a>
                   </li>
                   <li>
                     <span>Availability:</span>
-                    <a href="#" className="in-stock">
+                    <a href="/" className="in-stock">
                       In Stock (7 Items)
                     </a>
                   </li>
                 </ul>
                 <div className="product-info__btn">
-                  <a href="#">
+                  <a href="/">
                     <span>
                       <svg>
                         <use href="./../../../public/images/sprite.svg#icon-crop"></use>
@@ -146,7 +146,7 @@ export default function Details() {
                     </span>
                     &nbsp; SIZE GUIDE
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <span>
                       <svg>
                         <use href="./../../../public/images/sprite.svg#icon-truck"></use>
@@ -154,10 +154,10 @@ export default function Details() {
                     </span>
                     &nbsp; SHIPPING
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <span>
                       <svg>
-                        <use href="./../../../public/images/sprite.svg#icon-envelope-o"></use>
+                        <use href="./../../../public/images/sprite.svg/icon-envelope-o"></use>
                       </svg>
                       &nbsp;
                     </span>

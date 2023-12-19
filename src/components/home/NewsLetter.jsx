@@ -19,7 +19,7 @@ export default function NewsLetter() {
                 placeholder="Enter your email address"
                 className="newsletter__email"
               />
-              <a className="newsletter__link" href="#">
+              <a className="newsletter__link" href="/">
                 subscribe
               </a>
             </form>
