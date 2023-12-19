@@ -249,14 +249,6 @@
   ],
   "cart": [
     {
-      "id": 25,
-      "title": "Samsung Galaxy",
-      "image": "./images/products/sumsung/samsung1.jpeg",
-      "price": 450,
-      "category": "Special Products",
-      "quantity": 1
-    },
-    {
       "id": 4,
       "title": "Apple iPhone 11",
       "image": "./images/products/iphone/iphone2.jpeg",
@@ -270,6 +262,14 @@
       "image": "./images/products/headphone/headphone10.jpeg",
       "price": 250,
       "category": "Trending Products",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title": "Sony WH-CH510",
+      "image": "./images/products/headphone/headphone2.jpeg",
+      "price": 265,
+      "category": "Special Products",
       "quantity": 1
     }
   ]
