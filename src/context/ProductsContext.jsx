@@ -51,7 +51,7 @@ export const ProductsProvider = ({ children}) =>{
             }
         };
         fetchProducts();
-      },[]);
+      });
         const addToCart  = async (productId)=>{
           try {
             // get the product to add to cart

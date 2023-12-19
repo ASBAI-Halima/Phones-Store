@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect , useRef} from "react";
+import React, { useContext, useState, useEffect} from "react";
 import { ProductsContext } from "../../context/ProductsContext";
 import Carousel from "@itseasy21/react-elastic-carousel";
 import {Link} from 'react-router-dom';

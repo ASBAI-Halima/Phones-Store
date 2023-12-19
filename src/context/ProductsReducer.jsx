@@ -14,13 +14,6 @@ const ProductsReducer = (state, action)=>{
                     loading: false,
                     error: false
                 };
-        case "FETCH_REVIEWS":
-                return {
-                        ...state, 
-                        reviews: action.payload,
-                        loading: false,
-                        error: false
-                };
         case "SET_ERROR":
             return {
                 ...state,

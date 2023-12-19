@@ -99,7 +99,7 @@ export default function ProductsList() {
                     <ul>
                       <li>
                       <Link to={`/details/${product.id}`}>
-                        <a data-tip="Quick View" data-place="left" >
+                        <a href="/" data-tip="Quick View" data-place="left" >
                           <svg>
                             <use href="./images/sprite.svg#icon-eye"></use>
                           </svg>
