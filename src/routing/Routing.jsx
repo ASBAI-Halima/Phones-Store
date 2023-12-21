@@ -120,7 +120,7 @@ import ScrollToTop from "./../ScrollToTop"
                 id="search-box"
                 placeholder="Search here.."
               />
-              <label for="search-box" className="fas fa-search"></label>
+              <label className="fas fa-search"></label>
             </form>
           </div>
 

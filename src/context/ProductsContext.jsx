@@ -1,8 +1,8 @@
 import {createContext , useReducer , useEffect, useState} from 'react';
 import ProductsReducer from './ProductsReducer';
-const API_URL = 'http://localhost:3000/products';
-const API_URL_reviews = 'http://localhost:3000/reviews';
-const API_URL_cart = 'http://localhost:3000/cart';
+const API_URL = 'https://phones-data.onrender.com/products';
+const API_URL_reviews = 'https://phones-data.onrender.com/reviews';
+const API_URL_cart = 'https://phones-data.onrender.com/cart';
 
 const initialState = {
   products: [],
